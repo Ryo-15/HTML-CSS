@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.steps {
+	width: 960px;
+	margin: 50px auto;
+}
+
+.step-name {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ff9a4b;
+	color: #fff;
+	padding: 3px;
+}
+
+.step {
+	width: 300px;
+	float: left;
+	padding: 10px;
+	border: 1px solid #eee;
+	position: relative;
+	margin-right: 30px;
+}
+
+.step:last-child {
+	margin-right: 0;
+}
+
+.step img {
+	width: 280px;
+	background-size: cover;
+	background-position: bottom;
+}
